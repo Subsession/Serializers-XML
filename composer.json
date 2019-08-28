@@ -1,0 +1,27 @@
+{
+  "name": "comertis/serializers-xml",
+  "description": "XML Serializer",
+  "type": "library",
+  "readme": "README.md",
+  "license": "Proprietary",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Cristian Moraru",
+      "email": "cristian@comertis.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "comertis/exceptions": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Comertis\\Serializers\\Xml\\": "src/"
+    }
+  }
+}
